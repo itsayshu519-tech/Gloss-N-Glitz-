@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloss n’ Glitz</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap');
+
+        body {
+            background-color: #fdf5f6;
+            font-family: 'Poppins', sans-serif;
+            color: #4a148c;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f8bbd0, #e1bee7);
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.5em;
+            color: #c2185b;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #6a1b9a;
+            margin-top: 5px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border: 2px dashed #ce93d8;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .product-image {
+            background-color: #f3e5f5;
+            width: 100%;
+            height: 220px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+
+        .product-title {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.6em;
+            color: #d81b60;
+            margin: 10px 0 5px 0;
+        }
+
+        .product-price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #4a148c;
+            margin: 15px 0;
+        }
+
+        .buy-btn {
+            background-color: #ec407a;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .order-footer {
+            text-align: center;
+            margin: 50px 0;
+            padding: 20px;
+            background: #e1bee7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gloss n’ Glitz ✨</h1>
+        <div class="subtitle">Handmade with love 🍓 Lip Tints & Glosses</div>
+    </header>
+
+    <div class="container">
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">💖</div>
+                <div class="product-title">Barbie</div>
+                <div class="product-price">Tk 250</div>
+                <button class="buy-btn">In Stock</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🍫</div>
+                <div class="product-title">Chocolate Macchiato</div>
+                <div class="product-price">Tk 250</div>
+                <button class="buy-btn">In Stock</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🩸</div>
+                <div class="product-title">Vampire Blood</div>
+                <div class="product-price">Tk 250</div>
+                <button class="buy-btn">In Stock</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">🍓</div>
+                <div class="product-title">Berry Punch</div>
+                <div class="product-price">Tk 250</div>
+                <button class="buy-btn">In Stock</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="order-footer">
+        <h3>Ready to order?</h3>
+        <p>Send a screenshot of your favorites to our inbox!</p>
+        <a href="YOUR_FACEBOOK_LINK_HERE" class="buy-btn" style="background-color: #4267B2;">Message on Facebook 💬</a>
+        <a href="YOUR_INSTAGRAM_LINK_HERE" class="buy-btn" style="background-color: #E1306C;">Message on Instagram 💬</a>
+    </div>
+
+</body>
+</html>
+                                        
